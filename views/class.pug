@@ -1,0 +1,24 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style
+   style
+      include ../static/style.css
+      include ../static/stylecontact.css
+      include ../static/class.css
+
+block content
+  div.container3
+    h1 About Classes
+    hr
+    h2 Monday To Friday
+    div.cards#card10 
+      h3 Batch 1: 11:00 AM to 12.30PM
+    div.cards#card20
+      h3 Batch 2: 2:30 PM to 4:00PM
+    div.cards#card30 
+      h3 Batch 3: 6:00 PM to 7:30PM
+    h3 Note: Extra Classes Can be Taken on Weekends as per Requirement
+    

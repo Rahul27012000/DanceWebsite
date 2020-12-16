@@ -1,0 +1,29 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style
+   style
+      include ../static/style.css
+
+block content
+    section#intro
+        div WELCOME to Rahul's Dance Academy
+        div.small Live Learn Dance Repeat
+    section#mission
+        p Our Missions
+        div.card#card0
+           h3 Dance Perfection
+        div.card#card1 
+           h3 Dance the way You like
+        div.card#card2
+           h3 Expert Teaching
+    section#sponsers
+        h1 Our Sponsers
+        div.spon#spon1 
+        div.spon#spon2 
+        div.spon#spon3 
+        div.spon#spon4 
+  
+    

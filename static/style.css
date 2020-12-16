@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Nerko+One&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#logo{
+    display: flex;
+    align-items: center;
+    margin:0px 15px;
+}
+#logo img{
+    height: 50px;
+    filter: invert(50);
+}
+#navbar{
+    font-family: 'Raleway', sans-serif;;
+     background-color:grey;
+     padding: 13px 15px;
+     font-weight: bolder;
+     position: fixed;
+     width: 100%;
+  
+}
+#navbar ul{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a{
+    text-decoration: none;
+    padding: 5px 30px;
+    color:yellowgreen;
+    font-size: 1.2rem;
+}
+#navbar li a:hover{
+    color: white;
+    font-weight: bold;
+}
+#intro{
+   height: 500px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   background: url("/static/bg.jpg");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   font-family:  'Raleway', sans-serif;
+   font-weight: bold;
+   font-size: 35px;
+   padding-bottom: 150px;
+}
+#sponsers{
+   height: 300px;
+   background: url('/static/spon.jpg');
+   background-repeat: no-repeat;
+   background-size: 100% 100%; 
+ 
+   font-family:  'Raleway', sans-serif;
+
+}
+#mission{
+   height: 400px;
+   background: url('/static/bdc.jpg');
+   font-family:  'Raleway', sans-serif;
+   background-repeat: no-repeat;
+   background-size: 100% 100%; 
+}
+#mission{
+   height: 400px;
+   background: url('/static/bdc.jpg');
+   font-family:  'Raleway', sans-serif;
+   background-repeat: no-repeat;
+   background-size: 100% 100%; 
+}
+#mission p{
+    text-align: center;
+    font-size: 35px;
+    
+    font-weight: bold;
+    padding: 50px;
+}
+#footer{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 50px;
+   font-family:  'Raleway', sans-serif;
+   font-weight: bold;
+   background-color: rgb(115, 141, 64);
+}
+.small{
+    font-size: 1.5rem;
+}
+#sponsers h1{
+    text-align: center;
+    padding: 25px;
+    font-weight: bold;
+
+}
+
+.card{
+    display: inline-block;
+    border: 2px solid Black;
+    border-radius: 10px;
+    width: 30%;
+    margin: 23px 15px;
+    height: 150px;
+
+}
+.spon{
+    display: inline-block;
+    border: 2px solid Black;
+    border-radius: 10px;
+    width: 20%;
+    margin: 23px auto;
+    height: 175px;
+
+}
+.card h3{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+#card0{
+    background: url('/static/dance1.jpg');
+   font-family:  'Raleway', sans-serif;
+   background-repeat: no-repeat;
+   background-size: 100% 100%; 
+   font-size: 1.5rem;
+    font-weight: bold;
+    padding-top: 30px;
+    color: brown;
+}
+#card1{
+    background: url('/static/dance2.jpg');
+   font-family:  'Raleway', sans-serif;
+   background-repeat: no-repeat;
+   background-size: 100% 100%; 
+   font-size: 1.5rem;
+    font-weight: bold;
+    padding-top: 10px;
+}
+#card2{
+    background: url('/static/dance5.jpg');
+   font-family:  'Raleway', sans-serif;
+   background-repeat: no-repeat;
+   background-size: 100% 100%; 
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-top: 30px;
+    color:grey;
+}
+#spon1{
+    background: url('/static/apple.jpg');
+   background-repeat: no-repeat;
+   background-size: 100% 100%; 
+   margin: 10px 30px; 
+}
+#spon2{
+    background: url('/static/mc.jpg');
+   background-repeat: no-repeat;
+   background-size: 100% 100%; 
+   margin: 10px 30px; 
+}
+#spon3{
+    background: url('/static/bmw2.jpg');
+   background-repeat: no-repeat;
+   background-size: 100% 100%; 
+   margin: 10px 30px;   
+}
+#spon4{
+    background: url('/static/w.jpg');
+   background-repeat: no-repeat;
+   margin: 10px 30px; 
+   background-size: 100% 100%; 
+}
+

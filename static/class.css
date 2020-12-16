@@ -1,0 +1,49 @@
+.container3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 81vh;
+    padding: 20px;
+    background: url("/static/class.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    z-index: -1;
+    height: 607px;
+    padding-top: 50px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid Black;
+    border-radius: 10px;
+    width: 70%;
+    margin: 20px 15px;
+    height: 70px;
+}
+#card10{
+    font-family:  'Raleway', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-top: 10px 30px;
+}
+#card20{
+    font-family:  'Raleway', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-top: 10px 30px;
+}
+#card30{
+    font-family:  'Raleway', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-top: 10px 30px;
+}
+h1{
+    font-size: 45px;
+}
+h3:hover{
+    color:royalblue;
+}

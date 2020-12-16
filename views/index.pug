@@ -1,0 +1,37 @@
+doctype html
+html
+  head
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+       ul
+         div#logo
+           img(src="/static/dancelogo.jpg")
+         li #[a(href="/") Home]
+         li #[a(href="/") About]
+         li #[a(href="/") Contact Us]
+         li #[a(href="/") Services]
+         li #[a(href="/") Class Info]
+    section#intro
+        div WELCOME to Rahul's Dance Academy
+        div.small Live Learn Dance Repeat
+    section#mission
+        p Our Missions
+        div.card#card0
+           h3 Dance Perfection
+        div.card#card1 
+           h3 Dance the way You like
+        div.card#card2
+           h3 Expert Teaching
+    section#sponsers
+        h1 Our Sponsers
+        div.spon#spon1 
+        div.spon#spon2 
+        div.spon#spon3 
+        div.spon#spon4 
+    footer#footer
+        |  Copyright © 2020 RahulDanceAcademy.com
+        h5 All rights Reserved
+    script
+      include ../static/index.js
